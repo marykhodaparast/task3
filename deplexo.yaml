@@ -1,0 +1,11 @@
+
+version: 1
+type: web
+
+build:
+  framework: auto
+  install: bundle install
+
+run:
+  command: bundle exec puma -b 0.0.0.0 -p $PORT config.ru
+  port: 3000
