@@ -2,7 +2,7 @@
 require 'sinatra/base'
 
 class LcmApp < Sinatra::Base
-  EMAIL_PATH = 'maryam.kh1374@gmail.com'
+  EMAIL_PATH = 'maryam_kh1374_gmail_com'
 
   get "/#{EMAIL_PATH}" do
     content_type 'text/plain'
